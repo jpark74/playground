@@ -633,8 +633,8 @@ hr {
 		margin: auto;
 		max-width: 70em;
 		max-height: 60em;
-		top: -50px;
-		height: 100%;
+		top: -80px;
+		height: 140%;
 		
 	}
 
@@ -664,28 +664,29 @@ hr {
 	.design-bg-lg {
 		position: absolute;
 		z-index: -1;
-		width: 100%;
-		max-width: 90em;
+		width: 110%;
+		max-width: 200em;
 		left: auto;
-		right: 5vw;
-		bottom: -26vh;
-		top: -80px;
+		right: -14vw;
+		bottom: 0vh;
+		top: -120px;
 		display: block;
 		margin: 0;
+		transform: rotate(-8deg);
 	}
 
 	.design-container {
 		position: absolute;
-		max-width: 53em;
+		max-width: 68em;
 		height: 52%;
-		right: 21vw;
-		bottom: 12vw;
+		right: 2vw;
+		bottom: 16vw;
 	}
 
 	.design-heading {
 		position: fixed;
 		right: 80rem;
-		bottom: 6rem;
+		bottom: 2rem;
 		z-index: 3;
 		word-spacing: normal;
 		margin: 0;	
@@ -698,7 +699,7 @@ hr {
 	.design-clipped 
 	{
 		padding-bottom: 0;
-		height: 500px;
+		height: 650px;
 	}
 
 
@@ -772,7 +773,7 @@ hr {
 
 
 
-@media screen and (min-width:1000px) and (max-width:1400px) and (max-height: 720px) {
+@media screen and (min-width:1000px) and (max-width:1440px) and (max-height: 720px) {
 
 
 	.button {
@@ -872,15 +873,15 @@ hr {
 	.design-container {
 		position: absolute;
 		max-width: 42em;
-		height: 62%;
+		height: 84%;
 		right: 17vw;
-		bottom: 7vw;
+		bottom: 0vw;
 		overflow: hidden;
 	}
 
 	.design-heading {
 		position: fixed;
-		right: 63rem;
+		right: 60rem;
 		bottom: 2rem;
 		z-index: 3;
 		word-spacing: normal;
