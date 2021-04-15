@@ -100,7 +100,7 @@ a {
 	color: black;
 	position: absolute;
 	top: 80px;
-	right: 100px;
+	right: 110px;
 
 }
 
@@ -112,7 +112,7 @@ a {
 
 .button {
 	position: absolute;
-	left: 19%;
+	left: 25%;
 	top: 40%;
 	max-width: 300px;
 }
@@ -120,6 +120,7 @@ a {
 .button:hover {
 	background-image: url(images/enter-hover.png);
 	background-size: 300px; auto;
+	left: 22%;
 }
 
 .button  {
@@ -191,7 +192,7 @@ p {
 
 header {
 	position: relative;
-	z-index: 1;
+	z-index: 9999;
 	padding: 0.5em;
 	margin: 0;
 	display: grid;
@@ -337,7 +338,6 @@ header {
 	overflow: hidden;
 	z-index: 100;
 }
-
 
 
 
@@ -611,6 +611,16 @@ hr {
 		display: none;
 	}
 
+	.email a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 100px;
+
+}
+
 	.main-container {
 		margin: 0.5em auto;
 	}
@@ -623,6 +633,9 @@ hr {
 		margin: auto;
 		max-width: 70em;
 		max-height: 60em;
+		top: -50px;
+		height: 100%;
+		
 	}
 
 	.illustration-heading {
@@ -631,11 +644,13 @@ hr {
 		right: 2em;
 		bottom: 2em;
 		width: 200px;
+
 	}
 
 	.illustration-clipped {
 		padding-left: 50px;
 		padding-right: 150px;
+		top: -50px;
 
 
 	}
@@ -661,7 +676,7 @@ hr {
 
 	.design-container {
 		position: absolute;
-		max-width: 52em;
+		max-width: 53em;
 		height: 52%;
 		right: 21vw;
 		bottom: 12vw;
@@ -743,12 +758,13 @@ hr {
 }
 .button {
 	position: absolute;
-	left: 35%;
+	left: 42%;
 	top: 40%;
 }
 
 .button:hover {
 	background-image: url(images/enter-hover.png);
+	left: 40%;
 }
 
 
