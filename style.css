@@ -557,7 +557,7 @@ hr {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 480px) {
+@media (min-width: 400px) {
 	
 	.grid {
 		grid-template-columns: repeat(2, calc(50% - 0.5em));
@@ -572,6 +572,28 @@ h1 {
 
 }
 
+
+.button {
+	position: absolute;
+	left: 23%;
+	top: 40%;
+	max-width: 300px;
+}
+
+.button:hover {
+	background-image: url(images/enter-hover.png);
+	background-size: 300px; auto;
+	left: 22%;
+}
+
+.button  {
+	opacity: 0;
+	animation-name: enter;
+	animation-delay: 3s;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+
+}
 
 }
 
