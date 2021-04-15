@@ -1333,6 +1333,183 @@ h1 {
 
 
 
+@media screen and (min-width: 1401px) and (max-width: 1639px) and (min-height: 530px){
+
+	nav {
+		right: auto;
+		left: 0;
+		transform: translateX(0);
+		background: none;
+		border: none;
+		padding: 0;
+		top: 10em;
+	}
+
+	.toggle {
+		display: none;
+	}
+
+	.email a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 100px;
+
+}
+
+	.main-container {
+		margin: 0.5em auto;
+	}
+
+	.main-clipped {
+		padding-right: 50px;
+	}
+
+	.illustration-container {
+		margin: auto;
+		max-width: 50em;
+		max-height: 60em;
+		top: -80px;
+		height: 140%;
+		
+	}
+
+	.illustration-heading {
+		transform: rotate(0);
+		left: auto;
+		right: 5em;
+		bottom: -5em;
+		width: 200px;
+
+	}
+
+	.illustration-clipped {
+		padding-left: 50px;
+		padding-right: 150px;
+		top: -40px;
+
+
+	}
+
+
+
+	.design-bg {
+		display: none;
+	}
+
+	.design-bg-lg {
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+		max-width: 200em;
+		left: auto;
+		right: -14vw;
+		bottom: 0vh;
+		top: -150px;
+		display: block;
+		margin: 0;
+		transform: rotate(-5deg);
+	}
+
+	.design-container {
+		position: absolute;
+		max-width: 40em;
+		height: 40%;
+		right: 8vw;
+		bottom: 20vw;
+	}
+
+	.design-heading {
+		position: fixed;
+		right: 50rem;
+		bottom: 2rem;
+		z-index: 3;
+		word-spacing: normal;
+		margin: 0;	
+		width: 1em;
+		word-break: break-word;
+		line-height: 1.25em;
+		font-size: 1.25em;
+	}
+
+	.design-clipped 
+	{
+		padding-bottom: 0;
+		height: 650px;
+	}
+
+
+	.photo-container {
+		margin: 0.5em auto;
+		border: none;
+		max-width: 70em;
+		height: auto;
+		max-height: 120%;
+		top:-100px;
+	}
+
+	.photo-bg {
+		display: none;
+	}
+
+	.photo-bg-lg {
+		width: 100%;
+		display: block;
+	}
+
+	.photo-clipped {
+		position: absolute;
+		top: 35%;
+		left: 10%;
+		background: none;
+		width: 100%;
+		padding: 0 0.5em;
+		max-height: 60%;
+		max-width: 64%;
+		border-radius: 0 0 2em 2.5em;
+		height: 100%;
+	}
+
+	.photo-heading {
+		display: block;
+		position: absolute;
+		z-index: 2;
+		width: auto;
+		top: 29%;
+		left: 12%;
+	}
+
+.logo {
+	margin-left: 2.5em;
+	margin-top: 2em;
+}
+
+.instagram a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 45px;
+
+}
+.button {
+	position: absolute;
+	left: 42%;
+	top: 40%;
+}
+
+.button:hover {
+	background-image: url(images/enter-hover.png);
+	left: 40%;
+}
+
+
+}
+
+
 
 
 @media screen and (min-width: 1640px) and (max-width: 1680px) {
