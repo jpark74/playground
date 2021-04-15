@@ -557,18 +557,27 @@ hr {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 30em) {
+@media (min-width: 480px) {
 	
 	.grid {
 		grid-template-columns: repeat(2, calc(50% - 0.5em));
 	}
+
+h1 {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 0 0 1em 0;
+	line-height: 1;
+
+}
 
 
 }
 
 
 
-@media (min-width: 40em) {
+@media (min-width: 640px) {
 	
 	.grid {
 		grid-template-columns: repeat(3, calc(33.33% - 0.5em));
@@ -593,9 +602,718 @@ hr {
 
 }
 
+@media screen and (min-width:1152px) and (max-width:1220px) {
+	nav {
+		right: auto;
+		left: 0;
+		transform: translateX(0);
+		background: none;
+		border: none;
+		padding: 0;
+		top: 10em;
+	}
+
+	.toggle {
+		display: none;
+	}
+
+	.email a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 100px;
+
+}
+
+	.main-container {
+		margin: 0.5em auto;
+	}
+
+	.main-clipped {
+		padding-right: 50px;
+	}
+
+	.illustration-container {
+		margin: auto;
+		max-width: 70em;
+		max-height: 60em;
+		top: -80px;
+		height: 140%;
+		
+	}
+
+	.illustration-heading {
+		transform: rotate(0);
+		left: auto;
+		right: 2em;
+		bottom: 2em;
+		width: 200px;
+
+	}
+
+	.illustration-clipped {
+		padding-left: 50px;
+		padding-right: 150px;
+		top: -50px;
 
 
-@media (min-width: 65em) {
+	}
+
+
+
+	.design-bg {
+		display: none;
+	}
+
+	.design-bg-lg {
+		position: absolute;
+		z-index: -1;
+		width: 110%;
+		max-width: 200em;
+		left: auto;
+		right: -14vw;
+		bottom: 0vh;
+		top: -120px;
+		display: block;
+		margin: 0;
+		transform: rotate(-2deg);
+	}
+
+	.design-container {
+		position: absolute;
+		max-width: 50em;
+		height: 52%;
+		right: 0vw;
+		bottom: 20vw;
+	}
+
+	.design-heading {
+		position: fixed;
+		right: 55rem;
+		bottom: 5rem;
+		z-index: 3;
+		word-spacing: normal;
+		margin: 0;	
+		width: 1em;
+		word-break: break-word;
+		line-height: 1.25em;
+		font-size: 1.25em;
+	}
+
+	.design-clipped 
+	{
+		padding-bottom: 0;
+		height: 650px;
+	}
+
+
+	.photo-container {
+		margin: 0.5em auto;
+		border: none;
+		max-width: 70em;
+		height: auto;
+		max-height: 100%;
+		top:-50px;
+	}
+
+	.photo-bg {
+		display: none;
+	}
+
+	.photo-bg-lg {
+		width: 100%;
+		display: block;
+	}
+
+	.photo-clipped {
+		position: absolute;
+		top: 29%;
+		left: 10%;
+		background: none;
+		width: 100%;
+		padding: 0 0.5em;
+		max-height: 60%;
+		max-width: 64%;
+		border-radius: 0 0 2em 2.5em;
+		height: 100%;
+	}
+
+	.photo-heading {
+		display: block;
+		position: absolute;
+		z-index: 2;
+		width: auto;
+		top: 24%;
+		left: 12%;
+	}
+
+.logo {
+	margin-left: 2.5em;
+	margin-top: 2em;
+}
+
+.instagram a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 45px;
+
+}
+.button {
+	position: absolute;
+	left: 42%;
+	top: 40%;
+}
+
+.button:hover {
+	background-image: url(images/enter-hover.png);
+	left: 40%;
+}
+
+
+}
+
+
+
+@media screen and (min-width:1221px) and (max-width:1240px) {
+	nav {
+		right: auto;
+		left: 0;
+		transform: translateX(0);
+		background: none;
+		border: none;
+		padding: 0;
+		top: 10em;
+	}
+
+	.toggle {
+		display: none;
+	}
+
+	.email a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 100px;
+
+}
+
+	.main-container {
+		margin: 0.5em auto;
+	}
+
+	.main-clipped {
+		padding-right: 50px;
+	}
+
+	.illustration-container {
+		margin: auto;
+		max-width: 70em;
+		max-height: 60em;
+		top: -80px;
+		height: 140%;
+		
+	}
+
+	.illustration-heading {
+		transform: rotate(0);
+		left: auto;
+		right: 2em;
+		bottom: 2em;
+		width: 200px;
+
+	}
+
+	.illustration-clipped {
+		padding-left: 50px;
+		padding-right: 150px;
+		top: -50px;
+
+
+	}
+
+
+
+	.design-bg {
+		display: none;
+	}
+
+	.design-bg-lg {
+		position: absolute;
+		z-index: -1;
+		width: 110%;
+		max-width: 200em;
+		left: auto;
+		right: -14vw;
+		bottom: 0vh;
+		top: -120px;
+		display: block;
+		margin: 0;
+		transform: rotate(-2deg);
+	}
+
+	.design-container {
+		position: absolute;
+		max-width: 50em;
+		height: 55%;
+		right: 0vw;
+		bottom: 20vw;
+	}
+
+	.design-heading {
+		position: fixed;
+		right: 55rem;
+		bottom: 8rem;
+		z-index: 3;
+		word-spacing: normal;
+		margin: 0;	
+		width: 1em;
+		word-break: break-word;
+		line-height: 1.25em;
+		font-size: 1.25em;
+	}
+
+	.design-clipped 
+	{
+		padding-bottom: 0;
+		height: 650px;
+	}
+
+
+	.photo-container {
+		margin: 0.5em auto;
+		border: none;
+		max-width: 70em;
+		height: auto;
+		max-height: 100%;
+		top:-50px;
+	}
+
+	.photo-bg {
+		display: none;
+	}
+
+	.photo-bg-lg {
+		width: 100%;
+		display: block;
+	}
+
+	.photo-clipped {
+		position: absolute;
+		top: 29%;
+		left: 10%;
+		background: none;
+		width: 100%;
+		padding: 0 0.5em;
+		max-height: 60%;
+		max-width: 64%;
+		border-radius: 0 0 2em 2.5em;
+		height: 100%;
+	}
+
+	.photo-heading {
+		display: block;
+		position: absolute;
+		z-index: 2;
+		width: auto;
+		top: 24%;
+		left: 12%;
+	}
+
+.logo {
+	margin-left: 2.5em;
+	margin-top: 2em;
+}
+
+.instagram a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 45px;
+
+}
+.button {
+	position: absolute;
+	left: 42%;
+	top: 40%;
+}
+
+.button:hover {
+	background-image: url(images/enter-hover.png);
+	left: 40%;
+}
+
+
+}
+
+
+
+@media screen and (min-width:1241px) and (max-width:1400px) {
+	nav {
+		right: auto;
+		left: 0;
+		transform: translateX(0);
+		background: none;
+		border: none;
+		padding: 0;
+		top: 10em;
+	}
+
+	.toggle {
+		display: none;
+	}
+
+	.email a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 100px;
+
+}
+
+	.main-container {
+		margin: 0.5em auto;
+	}
+
+	.main-clipped {
+		padding-right: 50px;
+	}
+
+	.illustration-container {
+		margin: auto;
+		max-width: 70em;
+		max-height: 60em;
+		top: -80px;
+		height: 140%;
+		
+	}
+
+	.illustration-heading {
+		transform: rotate(0);
+		left: auto;
+		right: 2em;
+		bottom: 2em;
+		width: 200px;
+
+	}
+
+	.illustration-clipped {
+		padding-left: 50px;
+		padding-right: 150px;
+		top: -50px;
+
+
+	}
+
+
+
+	.design-bg {
+		display: none;
+	}
+
+	.design-bg-lg {
+		position: absolute;
+		z-index: -1;
+		width: 110%;
+		max-width: 200em;
+		left: auto;
+		right: -14vw;
+		bottom: 0vh;
+		top: -120px;
+		display: block;
+		margin: 0;
+		transform: rotate(-2deg);
+	}
+
+	.design-container {
+		position: absolute;
+		max-width: 57em;
+		height: 55%;
+		right: 0vw;
+		bottom: 20vw;
+	}
+
+	.design-heading {
+		position: fixed;
+		right: 65rem;
+		bottom: 8rem;
+		z-index: 3;
+		word-spacing: normal;
+		margin: 0;	
+		width: 1em;
+		word-break: break-word;
+		line-height: 1.25em;
+		font-size: 1.25em;
+	}
+
+	.design-clipped 
+	{
+		padding-bottom: 0;
+		height: 650px;
+	}
+
+
+	.photo-container {
+		margin: 0.5em auto;
+		border: none;
+		max-width: 70em;
+		height: auto;
+		max-height: 100%;
+		top:-50px;
+	}
+
+	.photo-bg {
+		display: none;
+	}
+
+	.photo-bg-lg {
+		width: 100%;
+		display: block;
+	}
+
+	.photo-clipped {
+		position: absolute;
+		top: 29%;
+		left: 10%;
+		background: none;
+		width: 100%;
+		padding: 0 0.5em;
+		max-height: 60%;
+		max-width: 64%;
+		border-radius: 0 0 2em 2.5em;
+		height: 100%;
+	}
+
+	.photo-heading {
+		display: block;
+		position: absolute;
+		z-index: 2;
+		width: auto;
+		top: 24%;
+		left: 12%;
+	}
+
+.logo {
+	margin-left: 2.5em;
+	margin-top: 2em;
+}
+
+.instagram a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 45px;
+
+}
+.button {
+	position: absolute;
+	left: 42%;
+	top: 40%;
+}
+
+.button:hover {
+	background-image: url(images/enter-hover.png);
+	left: 40%;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 1401px) and (max-width: 1639px) {
+
+	nav {
+		right: auto;
+		left: 0;
+		transform: translateX(0);
+		background: none;
+		border: none;
+		padding: 0;
+		top: 10em;
+	}
+
+	.toggle {
+		display: none;
+	}
+
+	.email a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 100px;
+
+}
+
+	.main-container {
+		margin: 0.5em auto;
+	}
+
+	.main-clipped {
+		padding-right: 50px;
+	}
+
+	.illustration-container {
+		margin: auto;
+		max-width: 70em;
+		max-height: 60em;
+		top: -80px;
+		height: 140%;
+		
+	}
+
+	.illustration-heading {
+		transform: rotate(0);
+		left: auto;
+		right: -4em;
+		bottom: 2em;
+		width: 200px;
+
+	}
+
+	.illustration-clipped {
+		padding-left: 50px;
+		padding-right: 150px;
+		top: -50px;
+
+
+	}
+
+
+
+	.design-bg {
+		display: none;
+	}
+
+	.design-bg-lg {
+		position: absolute;
+		z-index: -1;
+		width: 110%;
+		max-width: 200em;
+		left: auto;
+		right: -14vw;
+		bottom: 0vh;
+		top: -120px;
+		display: block;
+		margin: 0;
+		transform: rotate(-5deg);
+	}
+
+	.design-container {
+		position: absolute;
+		max-width: 58em;
+		height: 58%;
+		right: 1vw;
+		bottom: 18vw;
+	}
+
+	.design-heading {
+		position: fixed;
+		right: 66rem;
+		bottom: 2rem;
+		z-index: 3;
+		word-spacing: normal;
+		margin: 0;	
+		width: 1em;
+		word-break: break-word;
+		line-height: 1.25em;
+		font-size: 1.25em;
+	}
+
+	.design-clipped 
+	{
+		padding-bottom: 0;
+		height: 650px;
+	}
+
+
+	.photo-container {
+		margin: 0.5em auto;
+		border: none;
+		max-width: 70em;
+		height: auto;
+		max-height: 100%;
+		top:-50px;
+	}
+
+	.photo-bg {
+		display: none;
+	}
+
+	.photo-bg-lg {
+		width: 100%;
+		display: block;
+	}
+
+	.photo-clipped {
+		position: absolute;
+		top: 29%;
+		left: 10%;
+		background: none;
+		width: 100%;
+		padding: 0 0.5em;
+		max-height: 60%;
+		max-width: 64%;
+		border-radius: 0 0 2em 2.5em;
+		height: 100%;
+	}
+
+	.photo-heading {
+		display: block;
+		position: absolute;
+		z-index: 2;
+		width: auto;
+		top: 24%;
+		left: 12%;
+	}
+
+.logo {
+	margin-left: 2.5em;
+	margin-top: 2em;
+}
+
+.instagram a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 45px;
+
+}
+.button {
+	position: absolute;
+	left: 42%;
+	top: 40%;
+}
+
+.button:hover {
+	background-image: url(images/enter-hover.png);
+	left: 40%;
+}
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 1640px) and (max-width: 1680px) {
 
 	nav {
 		right: auto;
@@ -937,6 +1655,201 @@ hr {
 		z-index: 2;
 		width: auto;
 		top: 24%;
+		left: 12%;
+	}
+
+.logo {
+	margin-left: 2.5em;
+	margin-top: 2em;
+}
+
+.instagram a {
+
+	display: block;
+	color: black;
+	position: absolute;
+	top: 80px;
+	right: 45px;
+
+}
+.button {
+	position: absolute;
+	left: 39%;
+	top: 40%;
+}
+
+.button:hover {
+	background-image: url(images/enter-hover.png);
+}
+
+
+}
+
+
+@media screen and (min-width:1000px) and (max-width:1180px) and (max-height: 550px) {
+
+
+	.button {
+		position: absolute;
+		top: 40%;
+	}
+
+	.button:hover {
+		background-image: url(images/enter-hover.png);
+	}
+
+	.button  {
+		opacity: 0;
+		animation-name: enter;
+		animation-delay: 3s;
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
+
+	}
+
+
+	@keyframes enter {
+
+	from {
+		opacity: 0%;
+	}
+
+	to {
+		opacity: 100%;
+	}
+}
+
+
+	nav {
+		right: auto;
+		left: 0;
+		transform: translateX(0);
+		background: none;
+		border: none;
+		padding: 0;
+		top: 10em;
+	}
+
+	.toggle {
+		display: none;
+	}
+
+	.main-container {
+		margin: 0.5em auto;
+	}
+
+	.main-clipped {
+		padding-right: 50px;
+	}
+
+	.illustration-container {
+		margin: auto;
+		max-width: 900px;
+		max-height: 60em;
+	}
+
+	.illustration-heading {
+		transform: rotate(0);
+		left: auto;
+		right: -4em;
+		bottom: -6em;
+		width: 200px;
+	}
+
+	.illustration-clipped {
+		padding-left: 50px;
+		padding-right: 150px;
+		top: -30px;
+
+
+	}
+
+
+
+	.design-bg {
+		display: none;
+	}
+
+	.design-bg-lg {
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+		max-width: 55em;
+		left: auto;
+		right: 6vw;
+		bottom: -30vh;
+		top: auto;
+		display: block;
+		margin: 0;
+	}
+
+	.design-container {
+		position: absolute;
+		max-width: 30em;
+		height: 84%;
+		right: 17vw;
+		bottom: 0vw;
+		overflow: hidden;
+	}
+
+	.design-heading {
+		position: fixed;
+		right: 46rem;
+		bottom: 0rem;
+		z-index: 3;
+		word-spacing: normal;
+		margin: 0;	
+		width: 1em;
+		word-break: break-word;
+		line-height: 1.25em;
+		font-size: 1.25em;
+	}
+
+	.design-clipped 
+	{
+		padding-bottom: 0;
+		height: 500px;
+	}
+
+
+	.photo-container {
+		margin: 0.5em auto;
+		border: none;
+		max-width: 55em;
+		height: auto;
+		max-height: 120%;
+		top:-70px;
+		left: 50px;
+	}
+
+	.photo-bg {
+		display: none;
+	}
+
+	.photo-bg-lg {
+		width: 100%;
+		display: block;
+	}
+
+	.photo-clipped {
+		position: absolute;
+		top: 35%;
+		left: 10%;
+		background: none;
+		width: 100%;
+		padding: 0 0.5em;
+		max-height: 60%;
+		max-width: 64%;
+		border-radius: 0 0 2em 2.5em;
+		height: 100%;
+	}
+
+	.photo-heading {
+		display: block;
+		position: absolute;
+		z-index: 2;
+		width: auto;
+		top: 30%;
 		left: 12%;
 	}
 
