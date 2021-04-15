@@ -565,7 +565,7 @@ hr {
 
 h1 {
 	font-family: 'Rubik Mono One', sans-serif;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: 400;
 	margin: 0 0 1em 0;
 	line-height: 1;
@@ -575,7 +575,7 @@ h1 {
 
 .button {
 	position: absolute;
-	left: 23%;
+	left: 18%;
 	top: 40%;
 	max-width: 300px;
 }
