@@ -647,13 +647,13 @@ nav a {
 }
 
 .smallitem img{
-	width: 300px;
+	width: 400px;
 	position: relative;
 }
 
 
 .bio {
-	width: 300px;
+	width: 400px;
 	padding: 30px;
 	border: solid white;
 	margin: 0;
@@ -661,20 +661,31 @@ nav a {
 }
 
 .contact {
-	margin-top: 40px;
+	margin-top: 25px;
 }
 
 .box {
-	width: 300px;
+	width: 400px;
 	margin-top: 0px;
 	margin-left: 0px;
 }
 
 .container {
 	display: grid;
-	grid-template-columns: 30% 70%;
+	grid-template-columns: 40% 80%;
 
 }
+
+.container h2 {
+	font-size: 18px;
+
+}
+
+.container a {
+	margin-left: 20px;
+}
+
+
 
 
 video {
@@ -711,7 +722,7 @@ display: none;
 }
 
 .flexitem img {
-	max-width: 300px;
+	max-width: 400px;
 	margin-left: 0;
 }
 
