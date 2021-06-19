@@ -90,6 +90,14 @@ p {
 }
 
 
+.textgap {
+	background-color: white;
+	width: 10px;
+	height: 20px;
+}
+
+
+
 .bio {
 	width: 400px;
 	padding: 30px;
@@ -538,13 +546,13 @@ video {
 	margin: 0 auto;
   	height: auto;
   	line-height: auto;
-	width: 400px;
+	width: 350px;
 	padding-right: 0;
 }
 
 .text img {
 	position: relative;
-	width: 400px;
+	width: 350px;
 	padding-right: 0;
 	margin-bottom: 10px;
 }
@@ -552,7 +560,7 @@ video {
 .text video {
 	position: relative;
 	justify-content: center;
-	width: 400px;
+	width: 350px;
 	padding-right: 0;
 	padding-left: 0;
 	margin-left: 0px;
@@ -647,7 +655,7 @@ nav a {
 }
 
 .smallitem img{
-	width: 400px;
+	width: 300px;
 	position: relative;
 }
 
@@ -656,7 +664,7 @@ nav a {
 	position: relative;
 	justify-content: center;
 	width: 350px;
-	padding: 45px;
+	padding: 20px;
 	border: solid white;
 	margin-left: 10px;
 	
@@ -664,7 +672,7 @@ nav a {
 }
 
 .contact {
-	margin-top: 25px;
+	margin-top: 15px;
 }
 
 .box {
@@ -675,13 +683,13 @@ nav a {
 
 .container {
 	display: grid;
-	grid-template-columns: 40% 80%;
+	grid-template-columns: 20% 80%;
 	margin-left: 10px;
 
 }
 
 .container h2 {
-	font-size: 18px;
+	font-size: 12px;
 
 }
 
@@ -725,7 +733,7 @@ display: none;
 }
 
 .flexitem img {
-	max-width: 300px;
+	max-width: 280px;
 	margin-left: 0;
 }
 
