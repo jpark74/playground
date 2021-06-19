@@ -647,13 +647,13 @@ nav a {
 }
 
 .smallitem img{
-	width: 400px;
+	width: 300px;
 	position: relative;
 }
 
 
 .bio {
-	width: 400px;
+	width: 300px;
 	padding: 30px;
 	border: solid white;
 	margin: 0;
@@ -665,7 +665,7 @@ nav a {
 }
 
 .box {
-	width: 600px;
+	width: 300px;
 	margin-top: 0px;
 	margin-left: 0px;
 }
@@ -711,7 +711,7 @@ display: none;
 }
 
 .flexitem img {
-	max-width: 400px;
+	max-width: 300px;
 	margin-left: 0;
 }
 
