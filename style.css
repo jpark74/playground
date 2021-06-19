@@ -653,10 +653,13 @@ nav a {
 
 
 .bio {
-	width: 400px;
-	padding: 30px;
+	position: relative;
+	justify-content: center;
+	width: 350px;
+	padding: 45px;
 	border: solid white;
-	margin: 0;
+	margin-left: 10px;
+	
 
 }
 
@@ -673,6 +676,7 @@ nav a {
 .container {
 	display: grid;
 	grid-template-columns: 40% 80%;
+	margin-left: 10px;
 
 }
 
@@ -681,9 +685,8 @@ nav a {
 
 }
 
-.container a {
-	margin-left: 20px;
-}
+
+
 
 
 
@@ -722,7 +725,7 @@ display: none;
 }
 
 .flexitem img {
-	max-width: 400px;
+	max-width: 300px;
 	margin-left: 0;
 }
 
