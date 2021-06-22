@@ -84,6 +84,12 @@ h2 {
 
 }
 
+h3 {
+	background-color: #e94f2f;
+	color: white;
+	text-align: center;
+}
+
 p {
 	font-family: 'Sarala', sans-serif;
 	color: white;
